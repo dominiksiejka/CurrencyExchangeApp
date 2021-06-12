@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exchange Rate App using API</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="titles">
+        <h1>Exchange Rate App</h1>
+        <h4>Choose currency and exchange</h4>
+      </div>
+      <div class="details">
+        <h5 class="currency-calculation-date"></h5>
+        <h3 class="exchange-flow">
+          <i class="fas fa-long-arrow-alt-right"></i>
+        </h3>
+        <div class="base-currency-container">
+          <input id="base-currency-amount" type="number" />
+          <select name="base-currency" id="base-currency-select">
+            <option value="default" selected disabled>currency</option>
+            <option value="PLN">PLN</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+          </select>
+        </div>
+        <button id="submit-exchange">Exchange</button>
+        <div class="exchange-currency-container">
+          <p id="exchange-currency-output"></p>
+          <select name="exchange-currency" id="exchange-currency-select">
+            <option value="default" selected disabled>currency</option>
+            <option value="PLN">PLN</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
