@@ -2,7 +2,7 @@
 
 ## Demo
 
-[**click live demo of the project**](https://dominiksiejka.github.io/BillSplitterApp)
+[**click live demo of the project**](https://dominiksiejka.github.io/CurrencyExchangeApp)
 
 ![CurrencyExchangeApp preview](./assets/exchange.jpg)
 
@@ -36,7 +36,7 @@ First of all pick the base curreny on the left, then pick the currency you would
 with BASH
 
 # clone the remote repo to your local one
-$ git clone https://github.com/dominiksiejka/BillSplitterApp.git
+$ git clone https://github.com/dominiksiejka/CurrencyExchangeApp.git
 
 # open the index.html file or use your code editor to open it with live server
 
@@ -49,4 +49,4 @@ $ git clone https://github.com/dominiksiejka/BillSplitterApp.git
 
 ## License
 
-- MIT © [Dominik Siejka ](https://github.com/dominiksiejka/BillSplitterApp)
+- MIT © [Dominik Siejka ](https://github.com/dominiksiejka/CurrencyExchangeApp)
