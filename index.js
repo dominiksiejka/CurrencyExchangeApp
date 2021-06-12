@@ -126,7 +126,7 @@ class CurrencyExchanger {
   handleBaseCurrencySelect = (event) => {
     this.baseCurrency = event.currentTarget.value;
     const getSelectedCurrencyData = fetch(
-      "http://api.nbp.pl/api/exchangerates/tables/a?format=json"
+      "https://api.nbp.pl/api/exchangerates/tables/a?format=json"
     );
     getSelectedCurrencyData
       .then((res) => res.json())
